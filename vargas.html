@@ -378,6 +378,13 @@
             background: linear-gradient(45deg, #00d4ff, #00f5ff);
         }
 
+        .service-card:nth-child(7) .service-icon { background: linear-gradient(45deg, #00d4ff, #0080ff); }
+        .service-card:nth-child(8) .service-icon { background: linear-gradient(45deg, #00d4ff, #8b5cf6); }
+        .service-card:nth-child(9) .service-icon { background: linear-gradient(45deg, #8b5cf6, #ff006e); }
+        .service-card:nth-child(10) .service-icon { background: linear-gradient(45deg, #00f5ff, #ff0080); }
+        .service-card:nth-child(11) .service-icon { background: linear-gradient(45deg, #ff006e, #8b5cf6); }
+        .service-card:nth-child(12) .service-icon { background: linear-gradient(45deg, #00d4ff, #00f5ff); }
+
         .service-card h3 {
             font-size: 1.4rem;
             margin-bottom: 1rem;
@@ -573,6 +580,45 @@
             border-radius: 24px;
             border: 4px solid #fff;
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+        }
+
+        /* Lenguajes y tecnologías */
+        .stack {
+            margin-top: 3rem;
+        }
+
+        .stack h3 {
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+
+        .stack-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.8rem 1.5rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .stack-name {
+            font-weight: 600;
+            color: #00d4ff;
+        }
+
+        .stack-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .stack-chip {
+            padding: 0.3rem 0.9rem;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.05);
+            font-size: 0.9rem;
         }
 
         /* Tarjeta de presentación */
@@ -990,7 +1036,7 @@
         <section id="inicio" class="hero">
             <div class="hero-content">
                 <h1>Diseño Web<br>Krizalid</h1>
-                <p>Especialista en crear experiencias digitales únicas con tecnología de vanguardia. Transformo ideas en realidades web extraordinarias.</p>
+                <p>Diseño y creo software, páginas web, sistemas a medida y bots de WhatsApp con IA, con dominio de varios lenguajes de programación. Transformo tus ideas en código.</p>
                 
                 <div class="hero-buttons">
                     <a href="#portfolio" class="btn-primary">Ver Mi Trabajo</a>
@@ -1020,10 +1066,76 @@
         <section id="servicios" class="services">
             <div class="section-title">
                 <h2>Servicios Profesionales</h2>
-                <p>Soluciones web completas que combinan creatividad, tecnología y estrategia para llevar tu presencia digital al siguiente nivel.</p>
+                <p>Diseño y creación de software, páginas web y automatización, con manejo de múltiples lenguajes de programación para llevar tu idea al siguiente nivel.</p>
             </div>
 
             <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🧩</div>
+                    <h3>Diseño y Creación de Software</h3>
+                    <p>Diseño y desarrollo software a medida, desde la idea y el diseño hasta el sistema funcionando.</p>
+                    <ul class="service-features">
+                        <li>Sistemas web a medida</li>
+                        <li>Aplicaciones de escritorio y web</li>
+                        <li>Del diseño al código</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⌨️</div>
+                    <h3>Lenguajes de Programación</h3>
+                    <p>Manejo de diversos lenguajes de programación para elegir la herramienta correcta para cada proyecto.</p>
+                    <ul class="service-features">
+                        <li>JavaScript y TypeScript</li>
+                        <li>Python y Java</li>
+                        <li>Node.js, Express y React</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>Bots de WhatsApp con IA</h3>
+                    <p>Bots que atienden y automatizan procesos por WhatsApp, con inteligencia artificial.</p>
+                    <ul class="service-features">
+                        <li>Respuestas automáticas</li>
+                        <li>IA visual y de texto</li>
+                        <li>Integración con tus sistemas</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Automatización de Registros</h3>
+                    <p>Reemplazo registros manuales por sistemas que guardan, calculan y reportan por ti.</p>
+                    <ul class="service-features">
+                        <li>Registro digital de datos</li>
+                        <li>Cálculos y costeo automáticos</li>
+                        <li>Reportes claros</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🗄️</div>
+                    <h3>Datos e Inteligencia Artificial</h3>
+                    <p>Bases de datos y análisis de datos con modelos de aprendizaje automático.</p>
+                    <ul class="service-features">
+                        <li>MongoDB Atlas y MySQL</li>
+                        <li>pandas y scikit-learn</li>
+                        <li>XGBoost</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔌</div>
+                    <h3>IoT y Herramientas</h3>
+                    <p>Proyectos con hardware y un flujo de trabajo profesional de desarrollo.</p>
+                    <ul class="service-features">
+                        <li>Arduino</li>
+                        <li>Git y GitHub</li>
+                        <li>VS Code y PyCharm</li>
+                    </ul>
+                </div>
+
                 <div class="service-card">
                     <div class="service-icon">💻</div>
                     <h3>Diseño Web Personalizado</h3>
@@ -1170,7 +1282,7 @@
 
             <div class="about-content">
                 <div class="about-text">
-                    <p>Soy Fernando Vargas Macedo, especialista en diseño web con más de 5 años de experiencia creando experiencias digitales únicas que combinan estética futurista con funcionalidad excepcional.</p>
+                    <p>Soy Fernando Vargas Macedo, desarrollador Full Stack especializado en el diseño y la creación de software, páginas web y sistemas a medida, con manejo de varios lenguajes de programación.</p>
                     
                     <p>Mi pasión por la tecnología y el diseño me ha llevado a especializarme en crear sitios web que no solo se ven increíbles, sino que también ofrecen experiencias de usuario memorables y resultados comerciales tangibles.</p>
 
@@ -1254,6 +1366,30 @@
                     <div class="skill-bar">
                         <div class="skill-progress" style="width: 87%"></div>
                     </div>
+                </div>
+            </div>
+
+            <div class="stack">
+                <h3>Lenguajes y Tecnologías</h3>
+                <div class="stack-group">
+                    <span class="stack-name">Front-end</span>
+                    <div class="stack-chips"><span class="stack-chip">HTML</span><span class="stack-chip">CSS</span><span class="stack-chip">JavaScript</span><span class="stack-chip">TypeScript</span><span class="stack-chip">React</span></div>
+                </div>
+                <div class="stack-group">
+                    <span class="stack-name">Back-end</span>
+                    <div class="stack-chips"><span class="stack-chip">Node.js</span><span class="stack-chip">Express</span><span class="stack-chip">Python</span><span class="stack-chip">Java</span></div>
+                </div>
+                <div class="stack-group">
+                    <span class="stack-name">Bases de datos</span>
+                    <div class="stack-chips"><span class="stack-chip">MongoDB Atlas</span><span class="stack-chip">MySQL</span></div>
+                </div>
+                <div class="stack-group">
+                    <span class="stack-name">Datos e IA</span>
+                    <div class="stack-chips"><span class="stack-chip">Python</span><span class="stack-chip">pandas</span><span class="stack-chip">scikit-learn</span><span class="stack-chip">XGBoost</span></div>
+                </div>
+                <div class="stack-group">
+                    <span class="stack-name">IoT y herramientas</span>
+                    <div class="stack-chips"><span class="stack-chip">Arduino</span><span class="stack-chip">Git</span><span class="stack-chip">GitHub</span><span class="stack-chip">VS Code</span><span class="stack-chip">PyCharm</span></div>
                 </div>
             </div>
         </section>
@@ -1348,6 +1484,9 @@
                                     <label for="servicio">Tipo de Servicio</label>
                                     <select id="servicio" name="servicio">
                                         <option value="">Selecciona un servicio</option>
+                                        <option value="software">Diseño y Creación de Software</option>
+                                        <option value="bots-whatsapp">Bots de WhatsApp con IA</option>
+                                        <option value="automatizacion">Automatización de Registros</option>
                                         <option value="diseno-web">Diseño Web Personalizado</option>
                                         <option value="desarrollo-responsive">Desarrollo Responsive</option>
                                         <option value="rediseno-web">Rediseño Web</option>
@@ -1398,6 +1537,7 @@
 
             <div class="footer-section">
                 <h3>Servicios</h3>
+                <p><a href="#servicios">Diseño y Creación de Software</a></p>
                 <p><a href="#servicios">Diseño Web Personalizado</a></p>
                 <p><a href="#servicios">Desarrollo Responsive</a></p>
                 <p><a href="#servicios">E-commerce</a></p>
@@ -1414,6 +1554,8 @@
                 <p>Node.js</p>
                 <p>Figma/Adobe XD</p>
                 <p>WordPress</p>
+                <p>Python y Java</p>
+                <p>MongoDB Atlas y MySQL</p>
             </div>
 
             <div class="footer-section">
